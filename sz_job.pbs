@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=64gb
+#PBS -l walltime=240:00:00
+#PBS -j oe
+#PBS -q fthpc
+#PBS -N xcompress
+#PBS -M ptriant@g.clemson.edu
+#pbs -m abe
+module load gcc/4.8.1
+module load mpich
+module load python/3.4
+
+cd /scratch2/ptriant/ulf_data_test_compression/
+
+tol=1E-10
+compressor=SZ-1.3
+num_iter=100
+simple_dll=./compressors/$compressor/sz_cycle.dll
+config=./compressors/$compressor/sz.config
+file=./results/$tol/$compressor/$num_iter.txt
+
+python h5_parser_compressor.py $tol $num_iter $simple_dll $config > $file

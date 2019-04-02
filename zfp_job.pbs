@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=64gb
+#PBS -l walltime=240:00:00
+#PBS -j oe
+#PBS -q fthpc
+#PBS -N xcompress
+#PBS -M ptriant@g.clemson.edu
+#pbs -m abe
+module load gcc/4.8.1
+module load mpich
+module load python/3.4
+
+cd /scratch2/ptriant/ulf_data_test_compression/
+
+tol=1E-4
+compressor=zfp-0.5.4
+simple_dll=./compressors/$compressor/simple.dll
+file=./results/$tol/$compressor/100.txt
+
+python h5_parser_compressor.py $tol 100 $simple_dll > $file

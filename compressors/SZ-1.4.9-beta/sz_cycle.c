@@ -62,7 +62,7 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 		stime = clock();
 		bytes = SZ_compress_args(SZ_DOUBLE, iArray, &outSize, REL, tolerance, tolerance, 0, 0, nz, ny, nx);
 		etime = clock();
-		cTimes[i] = etime-stime;
+		cTimes[i] = (etime-stime)/ CLOCKS_PER_SEC;
 
 		if (i < iterations - 1)
 		{
@@ -84,7 +84,7 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 		stime = clock();
  		data = SZ_decompress(SZ_DOUBLE, bytes, outSize, 0, 0, nz, ny, nx);	
 		etime = clock();  
-		dTimes[i] = etime-stime;		
+		dTimes[i] = (etime-stime)/ CLOCKS_PER_SEC;		
 
 		if (i < iterations - 1)
 		{

@@ -5,14 +5,16 @@
 #PBS -q fthpc
 #PBS -N xcompress
 #PBS -M ptriant@g.clemson.edu
-#pbs -m ae
+#PBS -m ae
+#PBS -J 1-10
+
 module load gcc/4.8.1
 module load mpich
 module load python/3.4
 
 cd /scratch2/ptriant/ulf_data_test_compression/
 
-tol=1E-4
+tol=1E-${PBS_ARRAY_INDEX}
 compressor=zfp-0.5.4
 simple_dll=./compressors/$compressor/simple.dll
 file=./results/$tol/$compressor/100.txt

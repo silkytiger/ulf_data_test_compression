@@ -6,13 +6,15 @@
 #PBS -N xcompress
 #PBS -M ptriant@g.clemson.edu
 #PBS -m ae
+#PBS -J 1-10
+
 module load gcc/4.8.1
 module load mpich
 module load python/3.4
 
 cd /scratch2/ptriant/ulf_data_test_compression/
 
-tol=1E-10
+tol=1E-${PBS_ARRAY_INDEX}
 compressor=SZ-1.3
 num_iter=100
 simple_dll=./compressors/$compressor/sz_cycle.dll

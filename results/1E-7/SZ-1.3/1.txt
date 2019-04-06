@@ -1,0 +1,68 @@
+SZ
+
+=============================
+Compressing CV=           0
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	4.000000
+Time =	7.300000E+01
+STD_DEV =	0.000000E+00
+Time =	6.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[2.57648707 2.57629505 2.57582817 ... 0.81226319 0.81113988 0.8165524 ]
+9.9999998282e-08
+
+=============================
+Compressing CV=           1
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	4.000000
+Time =	6.400000E+01
+STD_DEV =	0.000000E+00
+Time =	6.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[7.53805274e-04 7.16865296e-04 6.58525317e-04 ... 4.68660146e-05
+ 6.26463443e-05 3.67481261e-05]
+9.99999955256e-08
+
+=============================
+Compressing CV=           2
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	4.000000
+Time =	6.500000E+01
+STD_DEV =	0.000000E+00
+Time =	6.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[-0.00041069 -0.00046329 -0.00053789 ...  0.00043208  0.00043172
+  0.00042996]
+9.9999946386e-08
+
+=============================
+Compressing CV=           3
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	4.000000
+Time =	6.500000E+01
+STD_DEV =	0.000000E+00
+Time =	7.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[-0.00441489 -0.0041546  -0.00341884 ... -0.00050749 -0.00053151
+ -0.00049229]
+9.99999709445e-08

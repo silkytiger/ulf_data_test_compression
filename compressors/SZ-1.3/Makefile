@@ -1,4 +1,4 @@
-COMPESS_HOME=/zfs/fthpc/lossy_compressors/
+COMPESS_HOME=./
 COMPRESSION_FLAGS = -g -fPIC
 
 #SZ=SZ-2.0.2.1
@@ -11,10 +11,10 @@ COMPRESSION_FLAGS = -g -fPIC
 #SZ_LIB = libsz.a
 
 SZ=SZ-1.3
-SZ_LIB = libsz.so
+SZ_LIB = libsz.a
 
 COMPRESSION_FLAGS += -I$(COMPESS_HOME)/$(SZ)/sz/include -I$(COMPESS_HOME)/$(SZ)/sz -I/$(COMPESS_HOME)/$(SZ)/zlib
-COMPRESSION_LIBS = -L$(COMPESS_HOME)/$(SZ)/sz/.libs  -l:$(SZ_LIB) -L$(COMPESS_HOME)/$(SZ)/zlib/.libs -l:libzlib.so
+COMPRESSION_LIBS = -L$(COMPESS_HOME)/$(SZ)/sz/.libs  -l:$(SZ_LIB) -L$(COMPESS_HOME)/$(SZ)/zlib/.libs -l:libzlib.a
 
 #===========--------- use these for SZ > SZ 2.0 --------===========
 #COMPRESSION_FLAGS += -I/$(COMPESS_HOME)/$(SZ)/zstd

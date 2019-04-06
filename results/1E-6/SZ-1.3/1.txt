@@ -1,0 +1,68 @@
+SZ
+
+=============================
+Compressing CV=           0
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	7.000000
+Time =	7.700000E+01
+STD_DEV =	0.000000E+00
+Time =	5.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[2.57648671 5.15278142 2.57582772 ... 0.81226322 0.81114003 0.81655261]
+2.57648635387
+
+=============================
+Compressing CV=           1
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	7.000000
+Time =	5.400000E+01
+STD_DEV =	0.000000E+00
+Time =	5.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[7.53760571e-04 1.47152114e-03 2.16528171e-03 ... 4.67103606e-05
+ 6.31488677e-05 3.75873748e-05]
+0.00226053938887
+
+=============================
+Compressing CV=           2
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	7.000000
+Time =	5.900000E+01
+STD_DEV =	0.000000E+00
+Time =	5.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[-0.00041036 -0.00087272 -0.00135908 ...  0.00043118  0.00043111
+  0.00042903]
+0.00123128567523
+
+=============================
+Compressing CV=           3
+Shape of array          177259637          1           1
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /scratch2/ptriant/ulf_data_test_compression
+INIT SZ DONE
+Compression Factor =	7.000000
+Time =	5.000000E+01
+STD_DEV =	0.000000E+00
+Time =	5.000000E+00
+STD_DEV =	0.000000E+00
+=============================
+
+[-0.00441519 -0.00415484 -0.00341955 ... -0.00050756 -0.00053163
+ -0.00049171]
+9.99999941798e-07

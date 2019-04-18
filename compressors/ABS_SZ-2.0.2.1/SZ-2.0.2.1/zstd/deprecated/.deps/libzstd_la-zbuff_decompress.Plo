@@ -1,0 +1,12 @@
+deprecated/libzstd_la-zbuff_decompress.lo: deprecated/zbuff_decompress.c \
+ /usr/include/stdc-predef.h deprecated/zbuff.h \
+ /software/gcc/4.8.1/lib/gcc/x86_64-redhat-linux-gnu/4.8.1/include/stddef.h \
+ zstd.h
+
+/usr/include/stdc-predef.h:
+
+deprecated/zbuff.h:
+
+/software/gcc/4.8.1/lib/gcc/x86_64-redhat-linux-gnu/4.8.1/include/stddef.h:
+
+zstd.h:

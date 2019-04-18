@@ -60,7 +60,7 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 	for (i = 0; i < iterations; ++i)
   {
 		stime = clock();
-		/* note: dimension 5 should probably be zero, this code will likely need to be rebuilt */
+		/* note: dimension 5 should probably be zero */
 		bytes = SZ_compress_args(SZ_DOUBLE, iArray, &outSize, REL,tolerance,tolerance,tolerance, 0, 0, 1, nz, ny, nx);
 		etime = clock();
 		cTimes[i] = (etime-stime) / CLOCKS_PER_SEC ;

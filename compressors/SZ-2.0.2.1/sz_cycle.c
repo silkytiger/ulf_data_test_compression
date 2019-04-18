@@ -52,17 +52,21 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 
 	clock_t stime,etime;
 	
+	size_t inSize = ((double)nx) * 
+									((double)(ny > 0 ? ny : 1)) * 
+									((double)(nz > 0 ? nz : 1)) * 
+									sizeof(double);
 
-	int n_y = ny > 0 ? ny : 1;
-	int n_z = nz > 0 ? nz : 1;
-	size_t inSize = ((double)nx) * ((double)n_y) * ((double)n_z) * sizeof(double);
+	int r5=0; int r4=0; int r3=nz; int r2=ny; int r1=nx;
 
 	/* compress multiple times */
 	for (i = 0; i < iterations; ++i)
   {
+	fprintf(stderr,"%d, %d, %d, %d, %d\n",r5,r4,r3,r2,r1);	
 		stime = clock();
-		bytes = SZ_compress_args(SZ_DOUBLE, iArray, &outSize, REL, tolerance, tolerance, tolerance, 0, 1, nz, ny, nx);
+	bytes = SZ_compress_args(SZ_DOUBLE, iArray, &outSize, REL, tolerance,tolerance,tolerance,r5,r4,r3,r2,r1);
 		etime = clock();
+
 		cTimes[i] = (etime-stime)/CLOCKS_PER_SEC;
 
 		if (i < iterations - 1)
@@ -82,8 +86,9 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 	/* decompress multiple times */
 	for (i = 0; i < iterations; ++i)
  	{
+	fprintf(stderr,"%d, %d, %d, %d, %d\n",r5,r4,r3,r2,r1);	
 		stime = clock();
- 		data = SZ_decompress(SZ_DOUBLE, bytes, outSize, 0, 1, nz, ny, nx);	
+ 		data = SZ_decompress(SZ_DOUBLE, bytes, outSize, r5, r4, r3, r2, r1);	
 		etime = clock();  
 		dTimes[i] = (etime-stime)/CLOCKS_PER_SEC;
 

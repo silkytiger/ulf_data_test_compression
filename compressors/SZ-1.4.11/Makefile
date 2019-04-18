@@ -1,5 +1,5 @@
 COMPESS_HOME=./
-COMPRESSION_FLAGS = -g -fPIC
+COMPRESSION_FLAGS = -g -fPIC -lm
 
 #SZ=SZ-2.0.2.1
 #SZ_LIB = libSZ.a
@@ -22,7 +22,10 @@ COMPRESSION_LIBS = -L$(COMPESS_HOME)/$(SZ)/sz/.libs  -l:$(SZ_LIB) -L$(COMPESS_HO
 
 
 all:
-	gcc $(COMPRESSION_FLAGS) sz_cycle.c $(COMPRESSION_LIBS) -o sz_cycle.dll -shared 
+	gcc $(COMPRESSION_FLAGS) sz_cycle.c $(COMPRESSION_LIBS) -o sz_cycle.dll -shared
+	#gcc -shared sz_cycle.o -o sz_cycle.dll
+	#ar rcs sz_cylce.dll sz_cycle.o
+#-shared 
 
 
 

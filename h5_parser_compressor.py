@@ -81,8 +81,8 @@ else:
 
 		n = nparr.shape
 		nx=n[0]
-		ny=1
-		nz=1
+		ny=0
+		nz=0
 
 		rArr = np.zeros(nx)
 		#rArr = np.zeros(nx*ny*nz)

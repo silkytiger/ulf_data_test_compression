@@ -36,6 +36,8 @@ void copy_doubles(double* iArray, int nx, int ny, int nz, double* oArray)
 /* compress and decompress iArray, place result into oArray, preserve iArray*/
 void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterations, double* oArray, int mode)
 {
+  printf("MODE= %s\n",(mode == 0 ? "ABS" :
+                        (mode == 1 ? "REL" : "unknown")));
 
 	int i;
   double cRatio;
@@ -62,9 +64,8 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 	/* compress multiple times */
 	for (i = 0; i < iterations; ++i)
   {
-	fprintf(stderr,"%d, %d, %d, %d, %d\n",r5,r4,r3,r2,r1);	
 		stime = clock();
-	bytes = SZ_compress_args(SZ_DOUBLE, iArray, &outSize, REL, tolerance,tolerance,tolerance,r5,r4,r3,r2,r1);
+		bytes = SZ_compress_args(SZ_DOUBLE, iArray, &outSize, mode, tolerance,tolerance,tolerance,r5,r4,r3,r2,r1);
 		etime = clock();
 
 		cTimes[i] = (etime-stime)/CLOCKS_PER_SEC;
@@ -86,7 +87,6 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 	/* decompress multiple times */
 	for (i = 0; i < iterations; ++i)
  	{
-	fprintf(stderr,"%d, %d, %d, %d, %d\n",r5,r4,r3,r2,r1);	
 		stime = clock();
  		data = SZ_decompress(SZ_DOUBLE, bytes, outSize, r5, r4, r3, r2, r1);	
 		etime = clock();  

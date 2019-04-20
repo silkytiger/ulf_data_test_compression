@@ -1,0 +1,308 @@
+make  all-recursive
+make[1]: Entering directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0'
+Making all in zlib
+make[2]: Entering directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0/zlib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-adler32.lo -MD -MP -MF .deps/libzlib_la-adler32.Tpo -c -o libzlib_la-adler32.lo `test -f 'adler32.c' || echo './'`adler32.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-adler32.lo -MD -MP -MF .deps/libzlib_la-adler32.Tpo -c adler32.c  -fPIC -DPIC -o .libs/libzlib_la-adler32.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-adler32.lo -MD -MP -MF .deps/libzlib_la-adler32.Tpo -c adler32.c -o libzlib_la-adler32.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-adler32.Tpo .deps/libzlib_la-adler32.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-crc32.lo -MD -MP -MF .deps/libzlib_la-crc32.Tpo -c -o libzlib_la-crc32.lo `test -f 'crc32.c' || echo './'`crc32.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-crc32.lo -MD -MP -MF .deps/libzlib_la-crc32.Tpo -c crc32.c  -fPIC -DPIC -o .libs/libzlib_la-crc32.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-crc32.lo -MD -MP -MF .deps/libzlib_la-crc32.Tpo -c crc32.c -o libzlib_la-crc32.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-crc32.Tpo .deps/libzlib_la-crc32.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-deflate.lo -MD -MP -MF .deps/libzlib_la-deflate.Tpo -c -o libzlib_la-deflate.lo `test -f 'deflate.c' || echo './'`deflate.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-deflate.lo -MD -MP -MF .deps/libzlib_la-deflate.Tpo -c deflate.c  -fPIC -DPIC -o .libs/libzlib_la-deflate.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-deflate.lo -MD -MP -MF .deps/libzlib_la-deflate.Tpo -c deflate.c -o libzlib_la-deflate.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-deflate.Tpo .deps/libzlib_la-deflate.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-gzclose.lo -MD -MP -MF .deps/libzlib_la-gzclose.Tpo -c -o libzlib_la-gzclose.lo `test -f 'gzclose.c' || echo './'`gzclose.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzclose.lo -MD -MP -MF .deps/libzlib_la-gzclose.Tpo -c gzclose.c  -fPIC -DPIC -o .libs/libzlib_la-gzclose.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzclose.lo -MD -MP -MF .deps/libzlib_la-gzclose.Tpo -c gzclose.c -o libzlib_la-gzclose.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-gzclose.Tpo .deps/libzlib_la-gzclose.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-gzlib.lo -MD -MP -MF .deps/libzlib_la-gzlib.Tpo -c -o libzlib_la-gzlib.lo `test -f 'gzlib.c' || echo './'`gzlib.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzlib.lo -MD -MP -MF .deps/libzlib_la-gzlib.Tpo -c gzlib.c  -fPIC -DPIC -o .libs/libzlib_la-gzlib.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzlib.lo -MD -MP -MF .deps/libzlib_la-gzlib.Tpo -c gzlib.c -o libzlib_la-gzlib.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-gzlib.Tpo .deps/libzlib_la-gzlib.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-gzwrite.lo -MD -MP -MF .deps/libzlib_la-gzwrite.Tpo -c -o libzlib_la-gzwrite.lo `test -f 'gzwrite.c' || echo './'`gzwrite.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzwrite.lo -MD -MP -MF .deps/libzlib_la-gzwrite.Tpo -c gzwrite.c  -fPIC -DPIC -o .libs/libzlib_la-gzwrite.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzwrite.lo -MD -MP -MF .deps/libzlib_la-gzwrite.Tpo -c gzwrite.c -o libzlib_la-gzwrite.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-gzwrite.Tpo .deps/libzlib_la-gzwrite.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-inffast.lo -MD -MP -MF .deps/libzlib_la-inffast.Tpo -c -o libzlib_la-inffast.lo `test -f 'inffast.c' || echo './'`inffast.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-inffast.lo -MD -MP -MF .deps/libzlib_la-inffast.Tpo -c inffast.c  -fPIC -DPIC -o .libs/libzlib_la-inffast.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-inffast.lo -MD -MP -MF .deps/libzlib_la-inffast.Tpo -c inffast.c -o libzlib_la-inffast.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-inffast.Tpo .deps/libzlib_la-inffast.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-zutil.lo -MD -MP -MF .deps/libzlib_la-zutil.Tpo -c -o libzlib_la-zutil.lo `test -f 'zutil.c' || echo './'`zutil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-zutil.lo -MD -MP -MF .deps/libzlib_la-zutil.Tpo -c zutil.c  -fPIC -DPIC -o .libs/libzlib_la-zutil.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-zutil.lo -MD -MP -MF .deps/libzlib_la-zutil.Tpo -c zutil.c -o libzlib_la-zutil.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-zutil.Tpo .deps/libzlib_la-zutil.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-compress.lo -MD -MP -MF .deps/libzlib_la-compress.Tpo -c -o libzlib_la-compress.lo `test -f 'compress.c' || echo './'`compress.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-compress.lo -MD -MP -MF .deps/libzlib_la-compress.Tpo -c compress.c  -fPIC -DPIC -o .libs/libzlib_la-compress.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-compress.lo -MD -MP -MF .deps/libzlib_la-compress.Tpo -c compress.c -o libzlib_la-compress.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-compress.Tpo .deps/libzlib_la-compress.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-gzread.lo -MD -MP -MF .deps/libzlib_la-gzread.Tpo -c -o libzlib_la-gzread.lo `test -f 'gzread.c' || echo './'`gzread.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzread.lo -MD -MP -MF .deps/libzlib_la-gzread.Tpo -c gzread.c  -fPIC -DPIC -o .libs/libzlib_la-gzread.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-gzread.lo -MD -MP -MF .deps/libzlib_la-gzread.Tpo -c gzread.c -o libzlib_la-gzread.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-gzread.Tpo .deps/libzlib_la-gzread.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-infback.lo -MD -MP -MF .deps/libzlib_la-infback.Tpo -c -o libzlib_la-infback.lo `test -f 'infback.c' || echo './'`infback.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-infback.lo -MD -MP -MF .deps/libzlib_la-infback.Tpo -c infback.c  -fPIC -DPIC -o .libs/libzlib_la-infback.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-infback.lo -MD -MP -MF .deps/libzlib_la-infback.Tpo -c infback.c -o libzlib_la-infback.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-infback.Tpo .deps/libzlib_la-infback.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-inflate.lo -MD -MP -MF .deps/libzlib_la-inflate.Tpo -c -o libzlib_la-inflate.lo `test -f 'inflate.c' || echo './'`inflate.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-inflate.lo -MD -MP -MF .deps/libzlib_la-inflate.Tpo -c inflate.c  -fPIC -DPIC -o .libs/libzlib_la-inflate.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-inflate.lo -MD -MP -MF .deps/libzlib_la-inflate.Tpo -c inflate.c -o libzlib_la-inflate.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-inflate.Tpo .deps/libzlib_la-inflate.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-inftrees.lo -MD -MP -MF .deps/libzlib_la-inftrees.Tpo -c -o libzlib_la-inftrees.lo `test -f 'inftrees.c' || echo './'`inftrees.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-inftrees.lo -MD -MP -MF .deps/libzlib_la-inftrees.Tpo -c inftrees.c  -fPIC -DPIC -o .libs/libzlib_la-inftrees.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-inftrees.lo -MD -MP -MF .deps/libzlib_la-inftrees.Tpo -c inftrees.c -o libzlib_la-inftrees.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-inftrees.Tpo .deps/libzlib_la-inftrees.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-trees.lo -MD -MP -MF .deps/libzlib_la-trees.Tpo -c -o libzlib_la-trees.lo `test -f 'trees.c' || echo './'`trees.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-trees.lo -MD -MP -MF .deps/libzlib_la-trees.Tpo -c trees.c  -fPIC -DPIC -o .libs/libzlib_la-trees.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-trees.lo -MD -MP -MF .deps/libzlib_la-trees.Tpo -c trees.c -o libzlib_la-trees.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-trees.Tpo .deps/libzlib_la-trees.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -g -I./ -O2 -g -fPIC -MT libzlib_la-uncompr.lo -MD -MP -MF .deps/libzlib_la-uncompr.Tpo -c -o libzlib_la-uncompr.lo `test -f 'uncompr.c' || echo './'`uncompr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-uncompr.lo -MD -MP -MF .deps/libzlib_la-uncompr.Tpo -c uncompr.c  -fPIC -DPIC -o .libs/libzlib_la-uncompr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -I./ -O2 -g -fPIC -MT libzlib_la-uncompr.lo -MD -MP -MF .deps/libzlib_la-uncompr.Tpo -c uncompr.c -o libzlib_la-uncompr.o >/dev/null 2>&1
+mv -f .deps/libzlib_la-uncompr.Tpo .deps/libzlib_la-uncompr.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -g -I./ -O2 -g -fPIC   -o libzlib.la -rpath /usr/local/lib libzlib_la-adler32.lo libzlib_la-crc32.lo libzlib_la-deflate.lo libzlib_la-gzclose.lo libzlib_la-gzlib.lo libzlib_la-gzwrite.lo libzlib_la-inffast.lo libzlib_la-zutil.lo libzlib_la-compress.lo libzlib_la-gzread.lo libzlib_la-infback.lo libzlib_la-inflate.lo libzlib_la-inftrees.lo libzlib_la-trees.lo libzlib_la-uncompr.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libzlib_la-adler32.o .libs/libzlib_la-crc32.o .libs/libzlib_la-deflate.o .libs/libzlib_la-gzclose.o .libs/libzlib_la-gzlib.o .libs/libzlib_la-gzwrite.o .libs/libzlib_la-inffast.o .libs/libzlib_la-zutil.o .libs/libzlib_la-compress.o .libs/libzlib_la-gzread.o .libs/libzlib_la-infback.o .libs/libzlib_la-inflate.o .libs/libzlib_la-inftrees.o .libs/libzlib_la-trees.o .libs/libzlib_la-uncompr.o    -g -O2 -g   -Wl,-soname -Wl,libzlib.so.0 -o .libs/libzlib.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libzlib.so.0" && ln -s "libzlib.so.0.0.0" "libzlib.so.0")
+libtool: link: (cd ".libs" && rm -f "libzlib.so" && ln -s "libzlib.so.0.0.0" "libzlib.so")
+libtool: link: ar cru .libs/libzlib.a  libzlib_la-adler32.o libzlib_la-crc32.o libzlib_la-deflate.o libzlib_la-gzclose.o libzlib_la-gzlib.o libzlib_la-gzwrite.o libzlib_la-inffast.o libzlib_la-zutil.o libzlib_la-compress.o libzlib_la-gzread.o libzlib_la-infback.o libzlib_la-inflate.o libzlib_la-inftrees.o libzlib_la-trees.o libzlib_la-uncompr.o
+libtool: link: ranlib .libs/libzlib.a
+libtool: link: ( cd ".libs" && rm -f "libzlib.la" && ln -s "../libzlib.la" "libzlib.la" )
+make[2]: Leaving directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0/zlib'
+Making all in sz
+make[2]: Entering directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0/sz'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-ByteToolkit.lo -MD -MP -MF src/.deps/libSZ_la-ByteToolkit.Tpo -c -o src/libSZ_la-ByteToolkit.lo `test -f 'src/ByteToolkit.c' || echo './'`src/ByteToolkit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-ByteToolkit.lo -MD -MP -MF src/.deps/libSZ_la-ByteToolkit.Tpo -c src/ByteToolkit.c  -fPIC -DPIC -o src/.libs/libSZ_la-ByteToolkit.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-ByteToolkit.lo -MD -MP -MF src/.deps/libSZ_la-ByteToolkit.Tpo -c src/ByteToolkit.c -o src/libSZ_la-ByteToolkit.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-ByteToolkit.Tpo src/.deps/libSZ_la-ByteToolkit.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-dataCompression.lo -MD -MP -MF src/.deps/libSZ_la-dataCompression.Tpo -c -o src/libSZ_la-dataCompression.lo `test -f 'src/dataCompression.c' || echo './'`src/dataCompression.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-dataCompression.lo -MD -MP -MF src/.deps/libSZ_la-dataCompression.Tpo -c src/dataCompression.c  -fPIC -DPIC -o src/.libs/libSZ_la-dataCompression.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-dataCompression.lo -MD -MP -MF src/.deps/libSZ_la-dataCompression.Tpo -c src/dataCompression.c -o src/libSZ_la-dataCompression.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-dataCompression.Tpo src/.deps/libSZ_la-dataCompression.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicIntArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicIntArray.Tpo -c -o src/libSZ_la-DynamicIntArray.lo `test -f 'src/DynamicIntArray.c' || echo './'`src/DynamicIntArray.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicIntArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicIntArray.Tpo -c src/DynamicIntArray.c  -fPIC -DPIC -o src/.libs/libSZ_la-DynamicIntArray.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicIntArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicIntArray.Tpo -c src/DynamicIntArray.c -o src/libSZ_la-DynamicIntArray.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-DynamicIntArray.Tpo src/.deps/libSZ_la-DynamicIntArray.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-iniparser.lo -MD -MP -MF src/.deps/libSZ_la-iniparser.Tpo -c -o src/libSZ_la-iniparser.lo `test -f 'src/iniparser.c' || echo './'`src/iniparser.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-iniparser.lo -MD -MP -MF src/.deps/libSZ_la-iniparser.Tpo -c src/iniparser.c  -fPIC -DPIC -o src/.libs/libSZ_la-iniparser.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-iniparser.lo -MD -MP -MF src/.deps/libSZ_la-iniparser.Tpo -c src/iniparser.c -o src/libSZ_la-iniparser.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-iniparser.Tpo src/.deps/libSZ_la-iniparser.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szf.lo -MD -MP -MF src/.deps/libSZ_la-szf.Tpo -c -o src/libSZ_la-szf.lo `test -f 'src/szf.c' || echo './'`src/szf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szf.lo -MD -MP -MF src/.deps/libSZ_la-szf.Tpo -c src/szf.c  -fPIC -DPIC -o src/.libs/libSZ_la-szf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szf.lo -MD -MP -MF src/.deps/libSZ_la-szf.Tpo -c src/szf.c -o src/libSZ_la-szf.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szf.Tpo src/.deps/libSZ_la-szf.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-CompressElement.lo -MD -MP -MF src/.deps/libSZ_la-CompressElement.Tpo -c -o src/libSZ_la-CompressElement.lo `test -f 'src/CompressElement.c' || echo './'`src/CompressElement.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-CompressElement.lo -MD -MP -MF src/.deps/libSZ_la-CompressElement.Tpo -c src/CompressElement.c  -fPIC -DPIC -o src/.libs/libSZ_la-CompressElement.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-CompressElement.lo -MD -MP -MF src/.deps/libSZ_la-CompressElement.Tpo -c src/CompressElement.c -o src/libSZ_la-CompressElement.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-CompressElement.Tpo src/.deps/libSZ_la-CompressElement.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicByteArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicByteArray.Tpo -c -o src/libSZ_la-DynamicByteArray.lo `test -f 'src/DynamicByteArray.c' || echo './'`src/DynamicByteArray.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicByteArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicByteArray.Tpo -c src/DynamicByteArray.c  -fPIC -DPIC -o src/.libs/libSZ_la-DynamicByteArray.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicByteArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicByteArray.Tpo -c src/DynamicByteArray.c -o src/libSZ_la-DynamicByteArray.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-DynamicByteArray.Tpo src/.deps/libSZ_la-DynamicByteArray.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-rw.lo -MD -MP -MF src/.deps/libSZ_la-rw.Tpo -c -o src/libSZ_la-rw.lo `test -f 'src/rw.c' || echo './'`src/rw.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-rw.lo -MD -MP -MF src/.deps/libSZ_la-rw.Tpo -c src/rw.c  -fPIC -DPIC -o src/.libs/libSZ_la-rw.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-rw.lo -MD -MP -MF src/.deps/libSZ_la-rw.Tpo -c src/rw.c -o src/libSZ_la-rw.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-rw.Tpo src/.deps/libSZ_la-rw.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageI.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageI.Tpo -c -o src/libSZ_la-TightDataPointStorageI.lo `test -f 'src/TightDataPointStorageI.c' || echo './'`src/TightDataPointStorageI.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageI.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageI.Tpo -c src/TightDataPointStorageI.c  -fPIC -DPIC -o src/.libs/libSZ_la-TightDataPointStorageI.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageI.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageI.Tpo -c src/TightDataPointStorageI.c -o src/libSZ_la-TightDataPointStorageI.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-TightDataPointStorageI.Tpo src/.deps/libSZ_la-TightDataPointStorageI.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageD.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageD.Tpo -c -o src/libSZ_la-TightDataPointStorageD.lo `test -f 'src/TightDataPointStorageD.c' || echo './'`src/TightDataPointStorageD.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageD.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageD.Tpo -c src/TightDataPointStorageD.c  -fPIC -DPIC -o src/.libs/libSZ_la-TightDataPointStorageD.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageD.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageD.Tpo -c src/TightDataPointStorageD.c -o src/libSZ_la-TightDataPointStorageD.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-TightDataPointStorageD.Tpo src/.deps/libSZ_la-TightDataPointStorageD.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageF.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageF.Tpo -c -o src/libSZ_la-TightDataPointStorageF.lo `test -f 'src/TightDataPointStorageF.c' || echo './'`src/TightDataPointStorageF.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageF.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageF.Tpo -c src/TightDataPointStorageF.c  -fPIC -DPIC -o src/.libs/libSZ_la-TightDataPointStorageF.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TightDataPointStorageF.lo -MD -MP -MF src/.deps/libSZ_la-TightDataPointStorageF.Tpo -c src/TightDataPointStorageF.c -o src/libSZ_la-TightDataPointStorageF.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-TightDataPointStorageF.Tpo src/.deps/libSZ_la-TightDataPointStorageF.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-conf.lo -MD -MP -MF src/.deps/libSZ_la-conf.Tpo -c -o src/libSZ_la-conf.lo `test -f 'src/conf.c' || echo './'`src/conf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-conf.lo -MD -MP -MF src/.deps/libSZ_la-conf.Tpo -c src/conf.c  -fPIC -DPIC -o src/.libs/libSZ_la-conf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-conf.lo -MD -MP -MF src/.deps/libSZ_la-conf.Tpo -c src/conf.c -o src/libSZ_la-conf.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-conf.Tpo src/.deps/libSZ_la-conf.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicDoubleArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicDoubleArray.Tpo -c -o src/libSZ_la-DynamicDoubleArray.lo `test -f 'src/DynamicDoubleArray.c' || echo './'`src/DynamicDoubleArray.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicDoubleArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicDoubleArray.Tpo -c src/DynamicDoubleArray.c  -fPIC -DPIC -o src/.libs/libSZ_la-DynamicDoubleArray.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicDoubleArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicDoubleArray.Tpo -c src/DynamicDoubleArray.c -o src/libSZ_la-DynamicDoubleArray.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-DynamicDoubleArray.Tpo src/.deps/libSZ_la-DynamicDoubleArray.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-rwf.lo -MD -MP -MF src/.deps/libSZ_la-rwf.Tpo -c -o src/libSZ_la-rwf.lo `test -f 'src/rwf.c' || echo './'`src/rwf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-rwf.lo -MD -MP -MF src/.deps/libSZ_la-rwf.Tpo -c src/rwf.c  -fPIC -DPIC -o src/.libs/libSZ_la-rwf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-rwf.lo -MD -MP -MF src/.deps/libSZ_la-rwf.Tpo -c src/rwf.c -o src/libSZ_la-rwf.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-rwf.Tpo src/.deps/libSZ_la-rwf.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TypeManager.lo -MD -MP -MF src/.deps/libSZ_la-TypeManager.Tpo -c -o src/libSZ_la-TypeManager.lo `test -f 'src/TypeManager.c' || echo './'`src/TypeManager.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TypeManager.lo -MD -MP -MF src/.deps/libSZ_la-TypeManager.Tpo -c src/TypeManager.c  -fPIC -DPIC -o src/.libs/libSZ_la-TypeManager.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-TypeManager.lo -MD -MP -MF src/.deps/libSZ_la-TypeManager.Tpo -c src/TypeManager.c -o src/libSZ_la-TypeManager.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-TypeManager.Tpo src/.deps/libSZ_la-TypeManager.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-dictionary.lo -MD -MP -MF src/.deps/libSZ_la-dictionary.Tpo -c -o src/libSZ_la-dictionary.lo `test -f 'src/dictionary.c' || echo './'`src/dictionary.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-dictionary.lo -MD -MP -MF src/.deps/libSZ_la-dictionary.Tpo -c src/dictionary.c  -fPIC -DPIC -o src/.libs/libSZ_la-dictionary.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-dictionary.lo -MD -MP -MF src/.deps/libSZ_la-dictionary.Tpo -c src/dictionary.c -o src/libSZ_la-dictionary.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-dictionary.Tpo src/.deps/libSZ_la-dictionary.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicFloatArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicFloatArray.Tpo -c -o src/libSZ_la-DynamicFloatArray.lo `test -f 'src/DynamicFloatArray.c' || echo './'`src/DynamicFloatArray.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicFloatArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicFloatArray.Tpo -c src/DynamicFloatArray.c  -fPIC -DPIC -o src/.libs/libSZ_la-DynamicFloatArray.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-DynamicFloatArray.lo -MD -MP -MF src/.deps/libSZ_la-DynamicFloatArray.Tpo -c src/DynamicFloatArray.c -o src/libSZ_la-DynamicFloatArray.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-DynamicFloatArray.Tpo src/.deps/libSZ_la-DynamicFloatArray.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-VarSet.lo -MD -MP -MF src/.deps/libSZ_la-VarSet.Tpo -c -o src/libSZ_la-VarSet.lo `test -f 'src/VarSet.c' || echo './'`src/VarSet.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-VarSet.lo -MD -MP -MF src/.deps/libSZ_la-VarSet.Tpo -c src/VarSet.c  -fPIC -DPIC -o src/.libs/libSZ_la-VarSet.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-VarSet.lo -MD -MP -MF src/.deps/libSZ_la-VarSet.Tpo -c src/VarSet.c -o src/libSZ_la-VarSet.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-VarSet.Tpo src/.deps/libSZ_la-VarSet.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-callZlib.lo -MD -MP -MF src/.deps/libSZ_la-callZlib.Tpo -c -o src/libSZ_la-callZlib.lo `test -f 'src/callZlib.c' || echo './'`src/callZlib.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-callZlib.lo -MD -MP -MF src/.deps/libSZ_la-callZlib.Tpo -c src/callZlib.c  -fPIC -DPIC -o src/.libs/libSZ_la-callZlib.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-callZlib.lo -MD -MP -MF src/.deps/libSZ_la-callZlib.Tpo -c src/callZlib.c -o src/libSZ_la-callZlib.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-callZlib.Tpo src/.deps/libSZ_la-callZlib.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-Huffman.lo -MD -MP -MF src/.deps/libSZ_la-Huffman.Tpo -c -o src/libSZ_la-Huffman.lo `test -f 'src/Huffman.c' || echo './'`src/Huffman.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-Huffman.lo -MD -MP -MF src/.deps/libSZ_la-Huffman.Tpo -c src/Huffman.c  -fPIC -DPIC -o src/.libs/libSZ_la-Huffman.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-Huffman.lo -MD -MP -MF src/.deps/libSZ_la-Huffman.Tpo -c src/Huffman.c -o src/libSZ_la-Huffman.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-Huffman.Tpo src/.deps/libSZ_la-Huffman.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_float.lo -MD -MP -MF src/.deps/libSZ_la-sz_float.Tpo -c -o src/libSZ_la-sz_float.lo `test -f 'src/sz_float.c' || echo './'`src/sz_float.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_float.lo -MD -MP -MF src/.deps/libSZ_la-sz_float.Tpo -c src/sz_float.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_float.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_float.lo -MD -MP -MF src/.deps/libSZ_la-sz_float.Tpo -c src/sz_float.c -o src/libSZ_la-sz_float.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_float.Tpo src/.deps/libSZ_la-sz_float.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_double.lo -MD -MP -MF src/.deps/libSZ_la-sz_double.Tpo -c -o src/libSZ_la-sz_double.lo `test -f 'src/sz_double.c' || echo './'`src/sz_double.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_double.lo -MD -MP -MF src/.deps/libSZ_la-sz_double.Tpo -c src/sz_double.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_double.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_double.lo -MD -MP -MF src/.deps/libSZ_la-sz_double.Tpo -c src/sz_double.c -o src/libSZ_la-sz_double.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_double.Tpo src/.deps/libSZ_la-sz_double.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int8.lo -MD -MP -MF src/.deps/libSZ_la-sz_int8.Tpo -c -o src/libSZ_la-sz_int8.lo `test -f 'src/sz_int8.c' || echo './'`src/sz_int8.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int8.lo -MD -MP -MF src/.deps/libSZ_la-sz_int8.Tpo -c src/sz_int8.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_int8.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int8.lo -MD -MP -MF src/.deps/libSZ_la-sz_int8.Tpo -c src/sz_int8.c -o src/libSZ_la-sz_int8.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_int8.Tpo src/.deps/libSZ_la-sz_int8.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int16.lo -MD -MP -MF src/.deps/libSZ_la-sz_int16.Tpo -c -o src/libSZ_la-sz_int16.lo `test -f 'src/sz_int16.c' || echo './'`src/sz_int16.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int16.lo -MD -MP -MF src/.deps/libSZ_la-sz_int16.Tpo -c src/sz_int16.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_int16.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int16.lo -MD -MP -MF src/.deps/libSZ_la-sz_int16.Tpo -c src/sz_int16.c -o src/libSZ_la-sz_int16.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_int16.Tpo src/.deps/libSZ_la-sz_int16.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int32.lo -MD -MP -MF src/.deps/libSZ_la-sz_int32.Tpo -c -o src/libSZ_la-sz_int32.lo `test -f 'src/sz_int32.c' || echo './'`src/sz_int32.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int32.lo -MD -MP -MF src/.deps/libSZ_la-sz_int32.Tpo -c src/sz_int32.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_int32.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int32.lo -MD -MP -MF src/.deps/libSZ_la-sz_int32.Tpo -c src/sz_int32.c -o src/libSZ_la-sz_int32.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_int32.Tpo src/.deps/libSZ_la-sz_int32.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int64.lo -MD -MP -MF src/.deps/libSZ_la-sz_int64.Tpo -c -o src/libSZ_la-sz_int64.lo `test -f 'src/sz_int64.c' || echo './'`src/sz_int64.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int64.lo -MD -MP -MF src/.deps/libSZ_la-sz_int64.Tpo -c src/sz_int64.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_int64.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_int64.lo -MD -MP -MF src/.deps/libSZ_la-sz_int64.Tpo -c src/sz_int64.c -o src/libSZ_la-sz_int64.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_int64.Tpo src/.deps/libSZ_la-sz_int64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_float.lo -MD -MP -MF src/.deps/libSZ_la-szd_float.Tpo -c -o src/libSZ_la-szd_float.lo `test -f 'src/szd_float.c' || echo './'`src/szd_float.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_float.lo -MD -MP -MF src/.deps/libSZ_la-szd_float.Tpo -c src/szd_float.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_float.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_float.lo -MD -MP -MF src/.deps/libSZ_la-szd_float.Tpo -c src/szd_float.c -o src/libSZ_la-szd_float.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_float.Tpo src/.deps/libSZ_la-szd_float.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_double.lo -MD -MP -MF src/.deps/libSZ_la-szd_double.Tpo -c -o src/libSZ_la-szd_double.lo `test -f 'src/szd_double.c' || echo './'`src/szd_double.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_double.lo -MD -MP -MF src/.deps/libSZ_la-szd_double.Tpo -c src/szd_double.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_double.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_double.lo -MD -MP -MF src/.deps/libSZ_la-szd_double.Tpo -c src/szd_double.c -o src/libSZ_la-szd_double.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_double.Tpo src/.deps/libSZ_la-szd_double.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int8.lo -MD -MP -MF src/.deps/libSZ_la-szd_int8.Tpo -c -o src/libSZ_la-szd_int8.lo `test -f 'src/szd_int8.c' || echo './'`src/szd_int8.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int8.lo -MD -MP -MF src/.deps/libSZ_la-szd_int8.Tpo -c src/szd_int8.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_int8.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int8.lo -MD -MP -MF src/.deps/libSZ_la-szd_int8.Tpo -c src/szd_int8.c -o src/libSZ_la-szd_int8.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_int8.Tpo src/.deps/libSZ_la-szd_int8.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int16.lo -MD -MP -MF src/.deps/libSZ_la-szd_int16.Tpo -c -o src/libSZ_la-szd_int16.lo `test -f 'src/szd_int16.c' || echo './'`src/szd_int16.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int16.lo -MD -MP -MF src/.deps/libSZ_la-szd_int16.Tpo -c src/szd_int16.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_int16.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int16.lo -MD -MP -MF src/.deps/libSZ_la-szd_int16.Tpo -c src/szd_int16.c -o src/libSZ_la-szd_int16.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_int16.Tpo src/.deps/libSZ_la-szd_int16.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int32.lo -MD -MP -MF src/.deps/libSZ_la-szd_int32.Tpo -c -o src/libSZ_la-szd_int32.lo `test -f 'src/szd_int32.c' || echo './'`src/szd_int32.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int32.lo -MD -MP -MF src/.deps/libSZ_la-szd_int32.Tpo -c src/szd_int32.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_int32.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int32.lo -MD -MP -MF src/.deps/libSZ_la-szd_int32.Tpo -c src/szd_int32.c -o src/libSZ_la-szd_int32.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_int32.Tpo src/.deps/libSZ_la-szd_int32.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int64.lo -MD -MP -MF src/.deps/libSZ_la-szd_int64.Tpo -c -o src/libSZ_la-szd_int64.lo `test -f 'src/szd_int64.c' || echo './'`src/szd_int64.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int64.lo -MD -MP -MF src/.deps/libSZ_la-szd_int64.Tpo -c src/szd_int64.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_int64.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_int64.lo -MD -MP -MF src/.deps/libSZ_la-szd_int64.Tpo -c src/szd_int64.c -o src/libSZ_la-szd_int64.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_int64.Tpo src/.deps/libSZ_la-szd_int64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz.lo -MD -MP -MF src/.deps/libSZ_la-sz.Tpo -c -o src/libSZ_la-sz.lo `test -f 'src/sz.c' || echo './'`src/sz.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz.lo -MD -MP -MF src/.deps/libSZ_la-sz.Tpo -c src/sz.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz.lo -MD -MP -MF src/.deps/libSZ_la-sz.Tpo -c src/sz.c -o src/libSZ_la-sz.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz.Tpo src/.deps/libSZ_la-sz.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_float_pwr.lo -MD -MP -MF src/.deps/libSZ_la-sz_float_pwr.Tpo -c -o src/libSZ_la-sz_float_pwr.lo `test -f 'src/sz_float_pwr.c' || echo './'`src/sz_float_pwr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_float_pwr.lo -MD -MP -MF src/.deps/libSZ_la-sz_float_pwr.Tpo -c src/sz_float_pwr.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_float_pwr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_float_pwr.lo -MD -MP -MF src/.deps/libSZ_la-sz_float_pwr.Tpo -c src/sz_float_pwr.c -o src/libSZ_la-sz_float_pwr.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_float_pwr.Tpo src/.deps/libSZ_la-sz_float_pwr.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_double_pwr.lo -MD -MP -MF src/.deps/libSZ_la-sz_double_pwr.Tpo -c -o src/libSZ_la-sz_double_pwr.lo `test -f 'src/sz_double_pwr.c' || echo './'`src/sz_double_pwr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_double_pwr.lo -MD -MP -MF src/.deps/libSZ_la-sz_double_pwr.Tpo -c src/sz_double_pwr.c  -fPIC -DPIC -o src/.libs/libSZ_la-sz_double_pwr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-sz_double_pwr.lo -MD -MP -MF src/.deps/libSZ_la-sz_double_pwr.Tpo -c src/sz_double_pwr.c -o src/libSZ_la-sz_double_pwr.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-sz_double_pwr.Tpo src/.deps/libSZ_la-sz_double_pwr.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_float_pwr.lo -MD -MP -MF src/.deps/libSZ_la-szd_float_pwr.Tpo -c -o src/libSZ_la-szd_float_pwr.lo `test -f 'src/szd_float_pwr.c' || echo './'`src/szd_float_pwr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_float_pwr.lo -MD -MP -MF src/.deps/libSZ_la-szd_float_pwr.Tpo -c src/szd_float_pwr.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_float_pwr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_float_pwr.lo -MD -MP -MF src/.deps/libSZ_la-szd_float_pwr.Tpo -c src/szd_float_pwr.c -o src/libSZ_la-szd_float_pwr.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_float_pwr.Tpo src/.deps/libSZ_la-szd_float_pwr.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_double_pwr.lo -MD -MP -MF src/.deps/libSZ_la-szd_double_pwr.Tpo -c -o src/libSZ_la-szd_double_pwr.lo `test -f 'src/szd_double_pwr.c' || echo './'`src/szd_double_pwr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_double_pwr.lo -MD -MP -MF src/.deps/libSZ_la-szd_double_pwr.Tpo -c src/szd_double_pwr.c  -fPIC -DPIC -o src/.libs/libSZ_la-szd_double_pwr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I./include -I../zlib/ -O2 -g -fPIC -MT src/libSZ_la-szd_double_pwr.lo -MD -MP -MF src/.deps/libSZ_la-szd_double_pwr.Tpo -c src/szd_double_pwr.c -o src/libSZ_la-szd_double_pwr.o >/dev/null 2>&1
+mv -f src/.deps/libSZ_la-szd_double_pwr.Tpo src/.deps/libSZ_la-szd_double_pwr.Plo
+/bin/sh ../libtool  --tag=FC   --mode=compile gfortran -DHAVE_CONFIG_H -I. -I..     -g -O2 -c -o src/sz_interface.lo src/sz_interface.F90
+libtool: compile:  gfortran -DHAVE_CONFIG_H -I. -I.. -g -O2 -c src/sz_interface.F90  -fPIC -o src/.libs/sz_interface.o
+libtool: compile:  gfortran -DHAVE_CONFIG_H -I. -I.. -g -O2 -c src/sz_interface.F90 -o src/sz_interface.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=FC   --mode=compile gfortran -DHAVE_CONFIG_H -I. -I..     -g -O2 -c -o src/rw_interface.lo src/rw_interface.F90
+libtool: compile:  gfortran -DHAVE_CONFIG_H -I. -I.. -g -O2 -c src/rw_interface.F90  -fPIC -o src/.libs/rw_interface.o
+libtool: compile:  gfortran -DHAVE_CONFIG_H -I. -I.. -g -O2 -c src/rw_interface.F90 -o src/rw_interface.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=FC --mode=link gfortran -I./include -I../zlib/ -O3 -version-info  1:4:0 -o libSZ.la -rpath /usr/local/lib src/libSZ_la-ByteToolkit.lo src/libSZ_la-dataCompression.lo src/libSZ_la-DynamicIntArray.lo src/libSZ_la-iniparser.lo src/libSZ_la-szf.lo src/libSZ_la-CompressElement.lo src/libSZ_la-DynamicByteArray.lo src/libSZ_la-rw.lo src/libSZ_la-TightDataPointStorageI.lo src/libSZ_la-TightDataPointStorageD.lo src/libSZ_la-TightDataPointStorageF.lo src/libSZ_la-conf.lo src/libSZ_la-DynamicDoubleArray.lo src/libSZ_la-rwf.lo src/libSZ_la-TypeManager.lo src/libSZ_la-dictionary.lo src/libSZ_la-DynamicFloatArray.lo src/libSZ_la-VarSet.lo src/libSZ_la-callZlib.lo src/libSZ_la-Huffman.lo src/libSZ_la-sz_float.lo src/libSZ_la-sz_double.lo src/libSZ_la-sz_int8.lo src/libSZ_la-sz_int16.lo src/libSZ_la-sz_int32.lo src/libSZ_la-sz_int64.lo src/libSZ_la-szd_float.lo src/libSZ_la-szd_double.lo src/libSZ_la-szd_int8.lo src/libSZ_la-szd_int16.lo src/libSZ_la-szd_int32.lo src/libSZ_la-szd_int64.lo src/libSZ_la-sz.lo src/libSZ_la-sz_float_pwr.lo src/libSZ_la-sz_double_pwr.lo src/libSZ_la-szd_float_pwr.lo src/libSZ_la-szd_double_pwr.lo src/sz_interface.lo src/rw_interface.lo  
+libtool: link: gfortran -shared  -fPIC  src/.libs/libSZ_la-ByteToolkit.o src/.libs/libSZ_la-dataCompression.o src/.libs/libSZ_la-DynamicIntArray.o src/.libs/libSZ_la-iniparser.o src/.libs/libSZ_la-szf.o src/.libs/libSZ_la-CompressElement.o src/.libs/libSZ_la-DynamicByteArray.o src/.libs/libSZ_la-rw.o src/.libs/libSZ_la-TightDataPointStorageI.o src/.libs/libSZ_la-TightDataPointStorageD.o src/.libs/libSZ_la-TightDataPointStorageF.o src/.libs/libSZ_la-conf.o src/.libs/libSZ_la-DynamicDoubleArray.o src/.libs/libSZ_la-rwf.o src/.libs/libSZ_la-TypeManager.o src/.libs/libSZ_la-dictionary.o src/.libs/libSZ_la-DynamicFloatArray.o src/.libs/libSZ_la-VarSet.o src/.libs/libSZ_la-callZlib.o src/.libs/libSZ_la-Huffman.o src/.libs/libSZ_la-sz_float.o src/.libs/libSZ_la-sz_double.o src/.libs/libSZ_la-sz_int8.o src/.libs/libSZ_la-sz_int16.o src/.libs/libSZ_la-sz_int32.o src/.libs/libSZ_la-sz_int64.o src/.libs/libSZ_la-szd_float.o src/.libs/libSZ_la-szd_double.o src/.libs/libSZ_la-szd_int8.o src/.libs/libSZ_la-szd_int16.o src/.libs/libSZ_la-szd_int32.o src/.libs/libSZ_la-szd_int64.o src/.libs/libSZ_la-sz.o src/.libs/libSZ_la-sz_float_pwr.o src/.libs/libSZ_la-sz_double_pwr.o src/.libs/libSZ_la-szd_float_pwr.o src/.libs/libSZ_la-szd_double_pwr.o src/.libs/sz_interface.o src/.libs/rw_interface.o    -O3   -Wl,-soname -Wl,libSZ.so.1 -o .libs/libSZ.so.1.0.4
+libtool: link: (cd ".libs" && rm -f "libSZ.so.1" && ln -s "libSZ.so.1.0.4" "libSZ.so.1")
+libtool: link: (cd ".libs" && rm -f "libSZ.so" && ln -s "libSZ.so.1.0.4" "libSZ.so")
+libtool: link: ar cru .libs/libSZ.a  src/libSZ_la-ByteToolkit.o src/libSZ_la-dataCompression.o src/libSZ_la-DynamicIntArray.o src/libSZ_la-iniparser.o src/libSZ_la-szf.o src/libSZ_la-CompressElement.o src/libSZ_la-DynamicByteArray.o src/libSZ_la-rw.o src/libSZ_la-TightDataPointStorageI.o src/libSZ_la-TightDataPointStorageD.o src/libSZ_la-TightDataPointStorageF.o src/libSZ_la-conf.o src/libSZ_la-DynamicDoubleArray.o src/libSZ_la-rwf.o src/libSZ_la-TypeManager.o src/libSZ_la-dictionary.o src/libSZ_la-DynamicFloatArray.o src/libSZ_la-VarSet.o src/libSZ_la-callZlib.o src/libSZ_la-Huffman.o src/libSZ_la-sz_float.o src/libSZ_la-sz_double.o src/libSZ_la-sz_int8.o src/libSZ_la-sz_int16.o src/libSZ_la-sz_int32.o src/libSZ_la-sz_int64.o src/libSZ_la-szd_float.o src/libSZ_la-szd_double.o src/libSZ_la-szd_int8.o src/libSZ_la-szd_int16.o src/libSZ_la-szd_int32.o src/libSZ_la-szd_int64.o src/libSZ_la-sz.o src/libSZ_la-sz_float_pwr.o src/libSZ_la-sz_double_pwr.o src/libSZ_la-szd_float_pwr.o src/libSZ_la-szd_double_pwr.o src/sz_interface.o src/rw_interface.o
+libtool: link: ranlib .libs/libSZ.a
+libtool: link: ( cd ".libs" && rm -f "libSZ.la" && ln -s "../libSZ.la" "libSZ.la" )
+make[2]: Leaving directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0/sz'
+Making all in example
+make[2]: Entering directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0/example'
+make[3]: Entering directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0'
+make[3]: Leaving directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0'
+depbase=`echo testint_compress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testint_compress.o -MD -MP -MF $depbase.Tpo -c -o testint_compress.o testint_compress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testint_compress testint_compress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testint_compress testint_compress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testint_decompress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testint_decompress.o -MD -MP -MF $depbase.Tpo -c -o testint_decompress.o testint_decompress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testint_decompress testint_decompress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testint_decompress testint_decompress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testfloat_compress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testfloat_compress.o -MD -MP -MF $depbase.Tpo -c -o testfloat_compress.o testfloat_compress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testfloat_compress testfloat_compress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testfloat_compress testfloat_compress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testfloat_decompress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testfloat_decompress.o -MD -MP -MF $depbase.Tpo -c -o testfloat_decompress.o testfloat_decompress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testfloat_decompress testfloat_decompress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testfloat_decompress testfloat_decompress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testdouble_compress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testdouble_compress.o -MD -MP -MF $depbase.Tpo -c -o testdouble_compress.o testdouble_compress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testdouble_compress testdouble_compress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testdouble_compress testdouble_compress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testdouble_decompress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testdouble_decompress.o -MD -MP -MF $depbase.Tpo -c -o testdouble_decompress.o testdouble_decompress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testdouble_decompress testdouble_decompress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testdouble_decompress testdouble_decompress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testfloat_batch_compress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testfloat_batch_compress.o -MD -MP -MF $depbase.Tpo -c -o testfloat_batch_compress.o testfloat_batch_compress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testfloat_batch_compress testfloat_batch_compress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testfloat_batch_compress testfloat_batch_compress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testdouble_batch_compress.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testdouble_batch_compress.o -MD -MP -MF $depbase.Tpo -c -o testdouble_batch_compress.o testdouble_batch_compress.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testdouble_batch_compress testdouble_batch_compress.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testdouble_batch_compress testdouble_batch_compress.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo sz.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT sz.o -MD -MP -MF $depbase.Tpo -c -o sz.o sz.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o sz sz.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o sz sz.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+gfortran -I../sz/include -I../sz -I../zlib   -g -O2 -c -o testdouble_batch_f.o testdouble_batch_f.f90
+/bin/sh ../libtool  --tag=FC   --mode=link gfortran -I../sz/include -I../sz -I../zlib   -g -O2   -o testdouble_batch_f testdouble_batch_f.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gfortran -I../sz/include -I../sz -I../zlib -g -O2 -o testdouble_batch_f testdouble_batch_f.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+gfortran -I../sz/include -I../sz -I../zlib   -g -O2 -c -o testdouble_compress_f.o testdouble_compress_f.f90
+/bin/sh ../libtool  --tag=FC   --mode=link gfortran -I../sz/include -I../sz -I../zlib   -g -O2   -o testdouble_compress_f testdouble_compress_f.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gfortran -I../sz/include -I../sz -I../zlib -g -O2 -o testdouble_compress_f testdouble_compress_f.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+gfortran -I../sz/include -I../sz -I../zlib   -g -O2 -c -o testdouble_decompress_f.o testdouble_decompress_f.f90
+/bin/sh ../libtool  --tag=FC   --mode=link gfortran -I../sz/include -I../sz -I../zlib   -g -O2   -o testdouble_decompress_f testdouble_decompress_f.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gfortran -I../sz/include -I../sz -I../zlib -g -O2 -o testdouble_decompress_f testdouble_decompress_f.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testfloat_CompDecomp_subblock.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testfloat_CompDecomp_subblock.o -MD -MP -MF $depbase.Tpo -c -o testfloat_CompDecomp_subblock.o testfloat_CompDecomp_subblock.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testfloat_CompDecomp_subblock testfloat_CompDecomp_subblock.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testfloat_CompDecomp_subblock testfloat_CompDecomp_subblock.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+depbase=`echo testdouble_CompDecomp_subblock.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..    -I../sz/include -I../zlib   -g  -MT testdouble_CompDecomp_subblock.o -MD -MP -MF $depbase.Tpo -c -o testdouble_CompDecomp_subblock.o testdouble_CompDecomp_subblock.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../sz/include -I../zlib   -g    -o testdouble_CompDecomp_subblock testdouble_CompDecomp_subblock.o ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm 
+libtool: link: gcc -I../sz/include -I../zlib -g -o testdouble_CompDecomp_subblock testdouble_CompDecomp_subblock.o  ../sz/.libs/libSZ.a ../zlib/.libs/libzlib.a -lm
+make[2]: Leaving directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0/example'
+make[2]: Entering directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0'
+make[2]: Leaving directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0'
+make[1]: Leaving directory `/home/ptriant/Research/ulf_data_test_compression/compressors/SZ-1.4.11/SZ-1.4.11.0'

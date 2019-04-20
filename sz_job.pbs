@@ -16,7 +16,8 @@ cd $PBS_O_WORKDIR
 pwd
 
 tol=1E-${PBS_ARRAY_INDEX}
-compressor=ABS_SZ-2.0.2.1
+compressor=SZ-1.4.11.0
+mode=0
 num_iter=100
 simple_dll=./compressors/$compressor/sz_cycle.dll
 config=./compressors/$compressor/sz.config
@@ -24,9 +25,9 @@ file=./results/$tol/$compressor/$num_iter.txt
 echo $file
 touch $file
 
-LD_LIBRARY_PATH=/zfs/fthpc/lossy_compressors/SZ-2.0.2.1/sz/.libs:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH
-LD_LIBRARY_PATH=/zfs/fthpc/lossy_compressors/SZ-2.0.2.1/zlib/.libs:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH
-LD_LIBRARY_PATH=/zfs/fthpc/lossy_compressors/SZ-2.0.2.1/zstd/.libs:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/zfs/fthpc/lossy_compressors/$compressor/sz/.libs:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/zfs/fthpc/lossy_compressors/$compressor/zlib/.libs:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/zfs/fthpc/lossy_compressors/$compressor/zstd/.libs:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH
 
 echo $LD_LIBRARY_PATH
 python h5_parser_compressor.py $tol $num_iter $simple_dll $config > $file

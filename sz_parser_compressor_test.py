@@ -7,17 +7,19 @@ import re
 # setup variables
 TOL=1E-5
 ITER=1
-compressor_path="./compressors/ABS_SZ-2.0.2.1/sz_cycle.dll"
+COMPRESSOR="SZ-1.4.11.0"
+MODE=1 #Abs=0,REL=1
+compressor_path="./compressors/"+COMPRESSOR+"/sz_cycle.dll"
 compressor_dll = ctypes.cdll.LoadLibrary(compressor_path)
 cycle = compressor_dll.cycle
 
-datafile="./compressors/ABS_SZ-2.0.2.1/SZ-2.0.2.1/example/testdata/testdouble_8_8_128.txt"
+datafile="./compressors/"+COMPRESSOR+"/"+COMPRESSOR+"/example/testdata/testdouble_8_8_128.txt"
 data = np.fromfile(datafile, dtype=np.float64, sep="\r\n")
 
 if (True):
 	print "SZ"
 
-	sz_config = "./compressors/ABS_SZ-2.0.2.1/sz.config"
+	sz_config = "./compressors/"+COMPRESSOR+"/sz.config"
 	SZ_Init = compressor_dll.SZ_Init
 	SZ_Finalize = compressor_dll.SZ_Finalize
 
@@ -40,7 +42,7 @@ if (True):
 
 	print "Shape of array          " + str(nx) + "          " + str(ny) + "           " + str(nz)
 	SZ_Init(ctypes.c_char_p(sz_config))
-	cycle(iArr,nx,ny,nz,ctypes.c_double(TOL), ITER, oArr,1)
+	cycle(iArr,nx,ny,nz,ctypes.c_double(TOL), ITER, oArr, MODE)
 	SZ_Finalize()
 	print "=============================\n"
 	print nArr

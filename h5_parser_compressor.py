@@ -72,6 +72,7 @@ else:
 	print "SZ"
 
 	sz_config = sys.argv[4]
+	mode = sys.argv[5]
 	SZ_Init = compressor_dll.SZ_Init
 	SZ_Finalize = compressor_dll.SZ_Finalize
 
@@ -99,7 +100,7 @@ else:
 
 		print "Shape of array          " + str(nx) + "          " + str(ny) + "           " + str(nz)
 		SZ_Init(ctypes.c_char_p(sz_config))
-		cycle(iArr,nx,ny,nz,ctypes.c_double(TOL), ITER, oArr,1)
+		cycle(iArr,nx,ny,nz,ctypes.c_double(TOL), ITER, oArr, ctypes.c_int(int(mode)))
 		SZ_Finalize()
 		print "=============================\n"
 		print nArr

@@ -1,0 +1,24 @@
+/home/ptriant/Research/ulf_data_test_compression
+./results/SZ-2.0.2.1/0/1E-4/1.txt
+/software/anaconda/5.1.0/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Traceback (most recent call last):
+  File "h5_parser_compressor.py", line 103, in <module>
+    cycle(iArr,nx,ny,nz,ctypes.c_double(TOL), ITER, oArr, ctypes.c_int(mode))
+TypeError: an integer is required
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=64gb,ncpus=4,walltime=240:00:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=93,cput=00:00:38,mem=8922724kb,ncpus=4,vmem=9528416kb,walltime=00:00:38
+ 
+ 

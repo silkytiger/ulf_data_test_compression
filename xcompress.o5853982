@@ -1,0 +1,20 @@
+/home/ptriant/Research/ulf_data_test_compression
+./results/SZ-2.0.2.1/0/1E-4/1.txt
+/software/anaconda/5.1.0/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=64gb,ncpus=4,walltime=240:00:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=101,cput=00:08:01,mem=15973744kb,ncpus=4,vmem=17272112kb,walltime=00:08:04
+ 
+ 

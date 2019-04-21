@@ -7,7 +7,7 @@ import re
 # setup variables
 TOL=1E-5
 ITER=1
-COMPRESSOR="SZ-1.4.11.0"
+COMPRESSOR="SZ-1.3"
 MODE=1 #Abs=0,REL=1
 compressor_path="./compressors/"+COMPRESSOR+"/sz_cycle.dll"
 compressor_dll = ctypes.cdll.LoadLibrary(compressor_path)

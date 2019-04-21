@@ -8,13 +8,13 @@ COMPRESSION_FLAGS = -g -fPIC
 #SZ_LIB = libSZ.a
 
 SZ=SZ-1.4.9-beta
-SZ_LIB = libsz.a
+SZ_LIB = libsz.so
 
 #SZ=SZ-1.3
 #SZ_LIB = libsz.a
 
 COMPRESSION_FLAGS += -I$(COMPESS_HOME)/$(SZ)/sz/include -I$(COMPESS_HOME)/$(SZ)/sz -I/$(COMPESS_HOME)/$(SZ)/zlib
-COMPRESSION_LIBS = -L$(COMPESS_HOME)/$(SZ)/sz/.libs  -l:$(SZ_LIB) -L$(COMPESS_HOME)/$(SZ)/zlib/.libs -l:libzlib.a
+COMPRESSION_LIBS = -L$(COMPESS_HOME)/$(SZ)/sz/.libs  -l:$(SZ_LIB) -L$(COMPESS_HOME)/$(SZ)/zlib/.libs -l:libzlib.so
 
 #===========--------- use these for SZ > SZ 2.0 --------===========
 #COMPRESSION_FLAGS += -I/$(COMPESS_HOME)/$(SZ)/zstd

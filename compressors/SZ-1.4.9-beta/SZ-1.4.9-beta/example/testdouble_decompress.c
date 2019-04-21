@@ -82,10 +82,12 @@ int main(int argc, char * argv[])
     printf("timecost=%f\n",totalCost);
    
     free(bytes); 
-    //int i=0;
-    //for(;i<8192;i++)
-    //	printf("i=%d, data=%f\n",i,data[i]);
-    writeDoubleData_inBytes(data, nbEle, outputFilePath);
+    int l=0;
+    FILE* fp = fopen("output.txt","w");
+		for(;l<8192;l++) fprintf(fp,"%.17lf\r\n",data[l]);
+    fclose(fp);
+
+		//writeDoubleData_inBytes(data, nbEle, outputFilePath);
     
     printf("done\n");
     

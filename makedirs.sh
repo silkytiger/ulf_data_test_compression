@@ -5,7 +5,7 @@
 
 mkdir results
 
-for compressor in SZ-1.3 SZ-1.4.9-beta SZ-1.4.11 SZ-2.0.2.1
+for compressor in SZ-1.3 SZ-1.4.9-beta SZ-1.4.11.0 SZ-2.0.2.1
 do
 	mkdir ./results/$compressor
 

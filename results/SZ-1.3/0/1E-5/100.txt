@@ -1,0 +1,72 @@
+SZ
+
+=============================
+Compressing CV=           0
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= ABS
+Compression Factor =	11.000000
+Time =	8.656000E+03
+STD_DEV =	8.569440E+03
+Time =	3.000000E+02
+STD_DEV =	2.970000E+02
+=============================
+
+[2.57648528 2.57629455 2.57582381 ... 0.81226417 0.81114299 0.8165538 ]
+9.99999999474e-06
+
+=============================
+Compressing CV=           1
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= ABS
+Compression Factor =	11.000000
+Time =	6.024000E+03
+STD_DEV =	5.963760E+03
+Time =	3.000000E+02
+STD_DEV =	2.970000E+02
+=============================
+
+[7.52091641e-04 7.15852017e-04 6.59612393e-04 ... 4.87011943e-05
+ 6.45031962e-05 4.03051982e-05]
+9.99999985099e-06
+
+=============================
+Compressing CV=           2
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= ABS
+Compression Factor =	11.000000
+Time =	6.573000E+03
+STD_DEV =	6.507270E+03
+Time =	3.000000E+02
+STD_DEV =	2.970000E+02
+=============================
+
+[-0.00040988 -0.00046329 -0.00053669 ...  0.00042416  0.00043506
+  0.00042596]
+9.99999985101e-06
+
+=============================
+Compressing CV=           3
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= ABS
+Compression Factor =	11.000000
+Time =	6.109000E+03
+STD_DEV =	6.047910E+03
+Time =	3.000000E+02
+STD_DEV =	2.970000E+02
+=============================
+
+[-0.00441805 -0.00415865 -0.00341925 ... -0.00051338 -0.00053468
+ -0.00049597]
+9.99999985099e-06

@@ -6,7 +6,7 @@
 #PBS -N xcompress
 #PBS -M ptriant@g.clemson.edu
 #PBS -m ae
-#0PBS -J 1-9
+#PBS -J 1-10
 
 module load gcc/4.8.1
 module load mpich
@@ -15,11 +15,10 @@ module load python/3.4
 cd $PBS_O_WORKDIR
 pwd
 
-tol=1E-4
-#${PBS_ARRAY_INDEX}
-compressor=SZ-2.0.2.1
-mode=0
-num_iter=1
+tol=1E-${PBS_ARRAY_INDEX}
+compressor=SZ-1.3
+mode=1
+num_iter=100
 simple_dll=./compressors/$compressor/sz_cycle.dll
 config=./compressors/$compressor/sz.config
 file=./results/$compressor/$mode/$tol/$num_iter.txt

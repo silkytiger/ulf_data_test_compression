@@ -9,8 +9,8 @@ TOL=float(sys.argv[1])
 ITER=int(sys.argv[2])
 compressor_path=sys.argv[3]
 compressor_dll = ctypes.cdll.LoadLibrary(compressor_path)
-cycle = compressor_dll.cycle
 ZFP=re.search("(ZFP|zfp)",compressor_path) != None
+cycle = compressor_dll.cycle1D if ZFP else compressor_dll.cycle
 
 
 f = h5py.File('results_snapshot_1029840.h5', 'r')
@@ -41,10 +41,10 @@ if ZFP:
 
 		n = nparr.shape
 		nx=n[0]
-		ny=1
-		nz=1
+		ny=0
+		nz=0
 
-		rArr = np.zeros(nx*ny*nz)
+		rArr = np.zeros(nx)
 		p = 0
 		for i in xrange(nx):
 			rArr[p] = nparr[i]
@@ -52,11 +52,11 @@ if ZFP:
 
 		iArr = rArr.ctypes.data_as(ctypes.POINTER(ctypes.c_double))
 
-		nArr = np.zeros(nx*ny*nz)
+		nArr = np.zeros(nx)
 		oArr = nArr.ctypes.data_as(ctypes.POINTER(ctypes.c_double))
 
 		print "Shape of array          " + str(nx) + "          " + str(ny) + "           " + str(nz)
-		cycle(iArr,nx,ny,nz,ctypes.c_double(TOL), ITER, oArr)
+		cycle(iArr,nx,ctypes.c_double(TOL), ITER, oArr)
 		print "=============================\n"
 		print nArr
 		grid1= np.copy(nparr)

@@ -12,11 +12,12 @@ module load gcc/4.8.1
 module load mpich
 module load python/3.4
 
-cd /scratch2/ptriant/ulf_data_test_compression/
+cd $PBS_O_WORKDIR
 
 tol=1E-${PBS_ARRAY_INDEX}
 compressor=zfp-0.5.4
-simple_dll=./compressors/$compressor/simple.dll
-file=./results/$tol/$compressor/100.txt
+num_iter=100
+simple_dll=./compressors/$compressor/examples/simple.dll
+file=./results/$compressor/$tol/$num_iter.txt
 
-python h5_parser_compressor.py $tol 100 $simple_dll > $file
+python h5_parser_compressor.py $tol $num_iter $simple_dll > $file

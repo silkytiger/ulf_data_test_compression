@@ -5,15 +5,16 @@ import ctypes
 import re
 
 # setup variables
-TOL=float(sys.argv[1])
-ITER=int(sys.argv[2])
-compressor_path=sys.argv[3]
+fileName=sys.argv[1]
+TOL=float(sys.argv[2])
+ITER=int(sys.argv[3])
+compressor_path=sys.argv[4]
 compressor_dll = ctypes.cdll.LoadLibrary(compressor_path)
 ZFP=re.search("(ZFP|zfp)",compressor_path) != None
 cycle = compressor_dll.cycle1D if ZFP else compressor_dll.cycle
 
 
-f = h5py.File('results_snapshot_1029840.h5', 'r')
+f = h5py.File(fileName, 'r')
 dset = f[u'piece0']
 
 # i do not think that I will be needing these
@@ -71,8 +72,8 @@ if ZFP:
 else:
 	print "SZ"
 
-	sz_config = sys.argv[4]
-	mode = sys.argv[5]
+	sz_config = sys.argv[5]
+	mode = sys.argv[6]
 	SZ_Init = compressor_dll.SZ_Init
 	SZ_Finalize = compressor_dll.SZ_Finalize
 

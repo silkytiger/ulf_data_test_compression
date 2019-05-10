@@ -7,12 +7,13 @@ import seaborn as sns
 import matplotlib
 import os
 
+fileName="results_snapshot_1029840"
 compressorName=sys.argv[1]
-mode=sys.argv[2]
+mode=int(sys.argv[2])
 
-compressorName='SZ-1.3'
-modeDir=mode+'/'
-mode_str='Absolute Tolerance'
+#compressorName='SZ-1.3'
+modeDir=str(mode)+'/'
+mode_str='Absolute Tolerance' if mode == 0 else 'Relative Tolerance'
 
 
 
@@ -33,7 +34,7 @@ matplotlib.rcParams['pdf.use14corefonts'] = True
 
 labels = ['Pressure','X Velocity','Y Velocity','Z Velocity']
 
-nparr = np.load('results/' + compressorName + '/' + modeDir + 'output.npy')
+nparr = np.load('results/'+fileName +'/'+ compressorName + '/' + modeDir + 'output.npy')
 yvals = np.moveaxis(nparr,0,1)
 
 #xarr = [1E-1, 1E-2, 1E-3, 1E-4, 1E-5, 1E-6, 1E-7, 1E-8, 1E-9]
@@ -54,7 +55,7 @@ plt.legend(loc='upper center', frameon=True, ncol=2, fontsize=12)
 plt.tight_layout()
 
 #I save the figures rather than showing them, replace the bottom 2 lines with the third to show each figure
-output_file='results/'+compressorName+'/' + modeDir + 'pic.pdf'
+output_file='results/'+fileName+'/'+compressorName+'/' + modeDir + 'pic.pdf'
 print output_file
 plt.savefig(output_file)
 plt.gcf().clear()

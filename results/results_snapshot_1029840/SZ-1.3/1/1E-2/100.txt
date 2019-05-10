@@ -1,0 +1,71 @@
+SZ
+
+=============================
+Compressing CV=           0
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= REL
+Compression Factor =	5516.000000
+Time =	7.000000E+02
+STD_DEV =	6.930000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+=============================
+
+[2.365708   2.365708   2.365708   ... 1.11424665 1.11424665 1.11424665]
+0.625732385118
+
+=============================
+Compressing CV=           1
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= REL
+Compression Factor =	189.000000
+Time =	2.995000E+03
+STD_DEV =	2.965050E+03
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+=============================
+
+[-0.00047815 -0.00047815 -0.00047815 ... -0.00044639 -0.00044639
+ -0.00044639]
+0.0102483474522
+
+=============================
+Compressing CV=           2
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= REL
+Compression Factor =	161.000000
+Time =	3.500000E+03
+STD_DEV =	3.465000E+03
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+=============================
+
+[0.00130673 0.00130673 0.00130673 ... 0.00130673 0.00130673 0.00130673]
+0.0076845678268
+
+=============================
+Compressing CV=           3
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/ulf_data_test_compression
+INIT SZ DONE
+MODE= REL
+Compression Factor =	201.000000
+Time =	3.071000E+03
+STD_DEV =	3.040290E+03
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+=============================
+
+[-0.00758425 -0.00758425 -0.00758425 ... -0.00761167 -0.00761167
+ -0.00761167]
+0.0117148266574

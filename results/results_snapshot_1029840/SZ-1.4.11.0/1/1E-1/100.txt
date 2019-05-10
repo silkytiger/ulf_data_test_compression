@@ -1,0 +1,66 @@
+SZ
+
+=============================
+Compressing CV=           0
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.11.0/sz.config) ...
+gzipmode = 9
+MODE= REL
+Compression Factor =	28997.000000
+Time =	5.100000E+02
+STD_DEV =	5.049001E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+=============================
+
+[6.29392782 6.29392782 6.29392782 ... 6.29262456 6.29262456 6.29262456]
+6.25732383336
+
+=============================
+Compressing CV=           1
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.11.0/sz.config) ...
+gzipmode = 9
+MODE= REL
+Compression Factor =	1137.000000
+Time =	7.000000E+02
+STD_DEV =	6.930000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+=============================
+
+[0.01333741 0.01333741 0.01333741 ... 0.01333281 0.01333281 0.01333281]
+0.10248347417
+
+=============================
+Compressing CV=           2
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.11.0/sz.config) ...
+gzipmode = 9
+MODE= REL
+Compression Factor =	887.000000
+Time =	8.000000E+02
+STD_DEV =	7.920000E+02
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+=============================
+
+[0.00053902 0.00053902 0.00053902 ... 0.00053902 0.00053902 0.00053902]
+0.0768456811085
+
+=============================
+Compressing CV=           3
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.11.0/sz.config) ...
+gzipmode = 9
+MODE= REL
+Compression Factor =	1157.000000
+Time =	9.000000E+02
+STD_DEV =	8.910000E+02
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+=============================
+
+[-0.00553616 -0.00553616 -0.00553616 ... -0.00553522 -0.00553522
+ -0.00553522]
+0.117148268177

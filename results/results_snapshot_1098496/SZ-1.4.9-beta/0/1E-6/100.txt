@@ -1,0 +1,63 @@
+SZ
+
+=============================
+Compressing CV=           0
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	6.000000
+Time =	1.400000E+03
+STD_DEV =	1.386000E+03
+Time =	8.000000E+02
+STD_DEV =	7.920000E+02
+=============================
+
+[3.39746255 3.39746064 3.39660673 ... 1.11133292 1.1113528  1.11581468]
+9.99999996365e-07
+
+=============================
+Compressing CV=           1
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	6.000000
+Time =	1.400000E+03
+STD_DEV =	1.386000E+03
+Time =	8.000000E+02
+STD_DEV =	7.920000E+02
+=============================
+
+[0.00089683 0.00085367 0.00078452 ... 0.00026537 0.00025944 0.0002755 ]
+9.99999995858e-07
+
+=============================
+Compressing CV=           2
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	6.000000
+Time =	1.400000E+03
+STD_DEV =	1.386000E+03
+Time =	8.000000E+02
+STD_DEV =	7.920000E+02
+=============================
+
+[-0.00053138 -0.00059385 -0.00067431 ...  0.00020508  0.00025335
+  0.00026562]
+9.9999999259e-07
+
+=============================
+Compressing CV=           3
+Shape of array          177259637          0           0
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	6.000000
+Time =	1.400000E+03
+STD_DEV =	1.386000E+03
+Time =	7.790000E+02
+STD_DEV =	7.712101E+02
+=============================
+
+[-0.00513319 -0.00482301 -0.00397083 ... -0.00061464 -0.00065219
+ -0.00069373]
+9.99999997656e-07
